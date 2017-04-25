@@ -1,0 +1,11 @@
+version: '2'
+services:
+  helloworld-application:
+    image: tutum/hello-world
+    stdin_open: true
+    tty: true
+    labels:
+      traefik.port: 80
+      traefik.enable: true
+      traefik.domain: traefik.tnt-labs.org
+      io.rancher.container.pull_image: always

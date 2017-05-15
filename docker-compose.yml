@@ -1,7 +1,7 @@
 version: '2'
 services:
   helloworld-application:
-    image: tutum/hello-world
+    image: dockercloud/hello-world
     stdin_open: true
     tty: true
     labels:

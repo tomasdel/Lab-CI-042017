@@ -1,7 +1,7 @@
 version: '2'
 services:
   helloworld-application:
-    image: dockercloud/hello-world
+    image: dockercloud/hello-world:latest
     stdin_open: true
     tty: true
     labels:

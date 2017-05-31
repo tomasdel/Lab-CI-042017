@@ -1,7 +1,7 @@
 version: '2'
 services:
   helloworld-application:
-    scale: 2
+    scale: 4
     start_on_create: true
     health_check:
       healthy_threshold: 2
